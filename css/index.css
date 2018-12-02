@@ -1,0 +1,276 @@
+
+.name {
+    color: #000000;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin: 60px 0 22px;
+}
+
+.title {
+    background-image: url("../img/BG.png");
+    height: 745px;
+    background-size: cover;
+
+}
+
+.logo {
+    margin: 10px auto;
+}
+
+.row-panel {
+    height: 117px;
+    box-shadow: 0 1px 1px rgba(0, 0, 2, 0.1), inset 0 0 2px rgba(255, 255, 255, 0.35);
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.title-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    color: #000000;
+    font-family: 'Open Sans', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    font-variant: small-caps;
+    margin: 0 11px;
+}
+
+.menu-panel {
+    margin: auto;
+    padding: 0;
+}
+
+.icon {
+    border: 1px solid black;
+    margin: 0 16px;
+}
+
+.foto-info {
+    margin: 19px 0 19px 0;
+    padding: 0;
+    border: none;
+}
+
+.text {
+    color: #000000;
+    font-family: "Open Sans", cursive;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 21% 3%;
+}
+
+.custom-row {
+    margin: 3% 7%;
+}
+
+.image {
+    width: 405px;
+    height: 271px;
+    min-width: 300px;
+    min-height: 271px;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.img-first {
+    background: url("../img/свадьба.png");
+}
+
+.img-second {
+    background-image: url("../img/банкет.png");
+}
+
+.img-third {
+    background-image: url("../img/ресторан.png");
+}
+
+.img-fourth {
+    background-image: url("../img/фуршет.png");
+}
+
+.img-fifth {
+    background-image: url("../img/барбекю.png");
+    background-color: #444444;
+}
+
+.img-sixth {
+    background-image: url("../img/кофебрейки.png");
+    background-color: #000000;
+}
+
+.white-circle {
+    background: #ffffffc2;
+    width: 210px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+
+.black-panel {
+    height: 246px;
+    border: 1px solid #d0d0d0;
+    background-color: #000000;
+}
+
+.name-black-panel {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.address {
+    color: #ffffff;
+    font-family: "Open Sans", cursive;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.icon-black-panel {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 20px;
+}
+
+.white-icon {
+    border: 1px solid white;
+}
+
+li:hover {
+    color: #bc2437;
+    cursor: pointer;
+}
+
+.white-circle:hover {
+    width: 180px;
+    height: 180px;
+    border: 3px solid #bc2336;
+    cursor: pointer;
+    color: #bc2336;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1450px) {
+    .foto-info {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .custom-row {
+        margin: 3% 20%;
+    }
+
+    .menu-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu {
+        margin: 2%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .foto-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .custom-row {
+        margin: 0 auto;
+    }
+
+    .icon {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .foto-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .logo {
+        padding: 6px;
+    }
+
+    .icon-menu {
+        display: inline-block;
+    }
+
+    .menu-icon {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .logo {
+        padding: 2px;
+    }
+
+    .icon-menu {
+        display: inline-block;
+    }
+
+    .menu-icon {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .logo {
+        padding: 0px;
+    }
+
+    .icon-menu {
+        display: inline-block;
+    }
+
+    .menu-icon {
+        flex: 0 0 15%;
+        max-width: 15%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        padding: 0px;
+    }
+
+    .icon-menu {
+        display: inline-block;
+    }
+
+    .menu-icon {
+        flex: 0 0 15%;
+        max-width: 15%;
+    }
+
+}
